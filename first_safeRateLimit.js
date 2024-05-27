@@ -76,7 +76,7 @@ class RateLimitedAPI_fixedInterval {
   const apiHandler = new RateLimitedAPI(15);
 
   for (let i = 0; i < 20; i++) {
-    apiHandler_fixedInterval.addApiRquest(`${i}`);
+    //apiHandler_fixedInterval.addApiRquest(`${i}`);
 
     apiHandler.addApiRquest(`${i}`);
   }
